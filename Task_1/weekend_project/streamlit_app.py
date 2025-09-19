@@ -22,7 +22,7 @@ st.markdown("""<style>
 </style>""", unsafe_allow_html=True)
 
 # Sidebar
-st.sidebar.image('assets/logo.png', use_container_width=True)
+st.sidebar.image('assets/logo.jpg', use_container_width=True)
 st.sidebar.header('Project Info')
 st.sidebar.markdown("""**Task 1**\n
 - Simple Streamlit uploader\n
