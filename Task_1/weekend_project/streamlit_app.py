@@ -33,7 +33,7 @@ st.sidebar.markdown("""**Task 1**\n
 st.title('📂 Task 1 — Data Upload & Preview')
 
 uploaded = st.file_uploader('Upload CSV / JSON ', type=['csv','json'])
-
+# hhh
 if uploaded is not None:
     try:
         # save to buffer (Streamlit gives UploadedFile)
